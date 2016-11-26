@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Ashwathnarayana, Venkateshprasad  Account :  jadrn001 CS545, Fall 2016 Project 3 -->
+        <meta charset="utf-8">
+            <title>Sign up!</title>
+            <link rel="stylesheet" href="proj2.css">
+            <link rel="icon" href="favicon.ico" type="image/ico" sizes="16x16">
+            <script type="text/javascript" src="http://jadran.sdsu.edu/jquery/jquery.js"></script>
+            <!--<script src="form.js"></script>-->
+            <script src="proj3.js"></script> 
+
+    </head>
+    <body>
+        
+        <div id = bannertext>
+            <h1>Welcome to Aztec Marathon 2016</h1>
+        </div>
+        
+        <div id = tagline>
+            <h2>May the course be with you!!!</h2>
+        </div>
+        
+        
+            <div id=bannertext>
+            <h1><u>Sign Up Here</u></h1>
+            </div>
+            
+            <fieldset>
+                <legend>Registration Information</legend>
+                <form name="registration_info"
+                    action="process_request.php"
+                    method="post"
+                    enctype="multipart/form-data">
+                    <ul>
+                        <li><label for="fname">First Name:</label>
+                            <input type="text"  name="fname"  id="fname" size="30" /></li>
+                        <li><label for="middle_name">Middle Name:</label>
+                            <input type="text" name="middle_name"  id="middle_name" size="5" /></li>
+                        <li><label for="lname">Last Name:</label>
+                            <input type="text"  name="lname"  id="lname" size="25" /></li>
+                        <li><label for="address">Address (line 1):</label>
+                            <input type="text"  placeholder="Street Name" name="address"  id="address" size="30" /></li>
+                        <li><label for="address1">Address (line 2):</label>
+                            <input type="text" placeholder="Apt/Suite" name="address1"  id="address1" size="15" /></li>
+                        <li><label>City</label>
+                            <input type="text" name="city" size="25" />
+                            <label>State</label>
+                            <input type="text" name="state" placeholder="XX" size="2" maxlength="2" pattern=[A-Z,a-b]{2} />
+                            <label>Zip</label>
+                            <input type="text" name="zip" size="5" placeholder="XXXXX" pattern="[0-9]{5}" maxlength="5" /></li>
+                        <li><label for="phone">Primary Phone:</label>
+                            (<input type="text" placeholder="XXX" pattern="[0-9]{3}" name="area_phone" id="phone" size="3" maxlength="3" />)  &nbsp;-&nbsp;
+                            <input type="text" placeholder="XXX" pattern="[0-9]{3}" name="prefix_phone" size="3" maxlength="3" /> &nbsp;-&nbsp;
+                            <input type="text" placeholder="XXXX" pattern="[0-9]{4}" name="phone" size="4" maxlength="4" /></li>
+                        <li><label for="phone1">Home Phone:</label>
+                            (<input type="text" placeholder="XXX" pattern="[0-9]{3}" name="area_phone1" id="phone" size="3" maxlength="3" />)  &nbsp;-&nbsp;
+                            <input type="text"  placeholder="XXX" pattern="[0-9]{3}" name="prefix_phone1" size="3" maxlength="3" /> &nbsp;-&nbsp;
+                            <input type="text"  placeholder="XXXX" pattern="[0-9]{4}" name="phone1" size="4" maxlength="4" /></li>. 
+                        <li><label for="email">E-Mail:</label>
+                            <input type="text" placeholder="someone@example.com"  name="email" size="25" /></li>
+                        <li><label for="gender">Gender:</label>
+                            <input type="radio"  name="gender" value="male"> Male
+                                <input type="radio" name="gender" value="female"> Female
+                                <input type="radio" name="gender" value="other"> Other</li>
+                        <li><label for="dob">Date of Birth</label>
+                            <input type="text" name="month"  placeholder="MM" id="month" size="2" maxlength="2"> /
+                                <input type="text" name="date"  placeholder="DD" id="date" size="2" maxlength="2">/
+                                <input type="text" name="year"  placeholder="YYYY" id="year" size="4" maxlength="4"></li>
+                        <li><label for="medical">Medical Condition:</label>
+                            <textarea placeholder="Please mention any previous medical condition." rows="4" cols="40"></textarea></li>
+                        <li><label for="level">Experience Level:</label>
+                            <input type="radio" name="level" value="Expert"> Expert
+                            <input type="radio" name="level" value="Experienced"> Experienced
+                            <input type="radio" name="level" value="Novice"> Novice</li>
+                        <li><label for="category">Category:</label>
+                            <input type="radio" name="category" value="Teen"> Teen
+                            <input type="radio" name="category" value="Adult"> Adult
+                            <input type="radio" name="category" value="Senior"> Senior</li>
+                        <li><label for="image"> Runner's Image: </label>
+                            <input type="file" id="picture" name="file"/></li>
+                    </ul>
+                    <div id="message_line">&nbsp;</div>
+                    <div id="button_panel">  
+                        <input type="reset" value="Clear Data" class="button" />
+                        <input type="submit" value="Submit Data"  class="button" /> 
+                    </div>              
+                </form>
+            </fieldset>
+            
+        <div id= home>
+            
+        </div>
+        <div id=bottom>
+            <a href="index.html">Go Back Home</a></br></br>
+            This is part of course curriculum for CS-545 at San Diego State University<br/> &copy; Venkateshprasad Ashwathnarayana
+        </div>
+    </body>
+</html>

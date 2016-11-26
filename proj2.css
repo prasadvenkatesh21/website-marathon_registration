@@ -1,0 +1,218 @@
+/* Ashwathnarayana, Venkateshprasad  Account :  jadrn001 CS545, Fall 2016 Project 3*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body	{
+    background:url(sdsubackground.jpg);
+    top right no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#bannertext h1 {
+    text-align: center;
+    margin: 30px 0 0 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:#b30000;
+    line-height:50px;
+    opacity:0.8;
+    background-color:#e6e6e6;
+}
+#tagline h2 {
+    text-align: center;
+    font:40px;
+    font-family: "Lucida Console", "Monaco", monospace;
+    color:#339966;
+    background-color:#e6e6e6;
+    opacity:0.8;
+    text-indent: 50%;
+}
+
+
+h3 {
+    margin: 30px,0,0,0;
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px black;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
+}
+
+
+#signup {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 30px 0 0 0;
+    text-align:center;
+}
+#signup img{
+    width:200px;
+}
+
+#info {
+    position:relative;
+    min-width:300px;
+    width:100%
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 70px 200px 70px 200px;
+    background-color:#e6e6e6;
+    opacity:0.8;
+    text-align:center;
+    
+}
+#desc {
+    text-align:center;
+    margin-left: 30px 200px 30px 200px;
+    
+}
+
+
+#desc dt {
+    text-align:center;
+    font-size:25px;
+    color:#b30000;
+    
+}
+
+#bottom {
+    text-align:center;
+    font-size:15px;
+    padding-top:20px;
+    padding-bottom:20px;
+    min-width:500px
+    width:100%;
+    opacity:0.8;
+    background-color:#e6e6e6;
+    margin: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
+}
+
+/*form CSS*/
+
+fieldset {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    margin-bottom:40px;
+    padding-top: 20px;
+    width: 800px;
+    border: 1px solid #b30000;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    opacity:0.95;
+    font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+legend {
+    background-color: #e6e6e6;
+    padding: 5px 10px 5px 10px;
+    text-align:center;
+    color:black;
+    border: 1px solid #b30000 ;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 5px;
+}
+
+
+ul {
+    list-style-type: none;
+    
+    
+}
+
+li {
+    margin-bottom: 10px;
+    text-align:justify;
+}
+
+label {
+    padding-left: 20px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+    
+}
+
+input {
+    font-family: font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;;
+    border: 1px solid #b30000;
+    border-radius: 5px;
+    height:23px;
+}
+#message_line {
+    height: 50px;
+    color:#b30000;
+    text-align:center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-style: italic;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    
+}
+
+.button {
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 90%;
+    border: 1px solid #b30000;
+    border-radius: 5px;
+    height:30px;
+    
+}
+
+
+#button_panel {
+    text-align: center;
+    border-top: 1px solid #b30000;
+    padding-top: 5px;
+    height:40px;
+}
+
+.report1 {
+    text-align:center;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.report2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    margin-bottom:40px;
+    padding-top: 20px;
+    width: 800px;
+    border: 1px solid #b30000;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    opacity:0.95;
+    font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    vertical-align: bottom;
+}
+
+.error {
+    border:  1px solid red;
+    background-color: #FEE;
+}
+
+
+    
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
+    }
+    
+td {
+    border: 1px solid grey;
+    padding: 5px;
+    }
+    
+
